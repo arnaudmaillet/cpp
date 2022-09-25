@@ -1,3 +1,4 @@
+#include <cstring>
 #include <string.h>
 #include "sources.h"
 
