@@ -7,23 +7,30 @@ int motive(char *path, char *motive)
     std::ifstream file;
     file.open(path);
 
-    if (file.fail()) {
+    if (file.fail())
+    {
         std::cout << "The file " << path << " could not be opened.\n";
         return 1;
     }
-
     std::string str;
-    int len = str.length();
-    char buff[len + 1];
     file >> str;
-
+    int len = str.size();
+    char buff[len + 1];
     int count = 0;
+    
 
-    std::string word = strtok(strcpy(buff, str.c_str()), " ");
-    while (word.find(motive))
+    strcpy(buff, str.c_str());
+    char *word = strtok(buff, " ");
+    while (word != NULL)
     {
-        count++;
+        std::string s(word);
+        std::cout << s;
+        if (s.find(motive) != -1)
+        {
+            count++;
+        }
+        word = strtok(NULL, " ");
     }
-    std::cout << "The file " << path << " contains " << count << " words containing the motive "<< motive <<"\n";
+    std::cout << "The file " << path << " contains " << count << " words containing the motive " << motive << "\n";
     return 0;
 }
