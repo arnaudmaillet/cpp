@@ -15,6 +15,7 @@ find_motive/libmysource.so
 find_motive/Makefile
 find_motive/main.pdf
 find_motive/test.txt
+find_motive/build/
 
 is_prime_prog/CMakeFiles
 is_prime_prog/cmake_install.cmake
