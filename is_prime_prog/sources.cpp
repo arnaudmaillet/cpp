@@ -9,7 +9,7 @@ void parse(char buff[])
     
     while (number != NULL)
     {
-        std::cout << number << " is a prime: " << isPrimeNumber(atoi(number)) << "\n";
+        std::cout << number << " is a prime: " << isPrimeNumber(atoi(number)) << std::endl;
         
         number = strtok(NULL, " ");
     }
@@ -30,5 +30,3 @@ std::string isPrimeNumber(int number)
     }
     return "True";
 }
-
-

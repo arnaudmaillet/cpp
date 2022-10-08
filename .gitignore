@@ -16,6 +16,7 @@ find_motive/Makefile
 find_motive/main.pdf
 find_motive/test.txt
 find_motive/build/
+find_motive/libmysource.dylib
 
 is_prime_prog/CMakeFiles
 is_prime_prog/cmake_install.cmake
