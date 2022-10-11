@@ -1,3 +1,5 @@
+.DS_Store
+
 example/CMakeFiles
 example/cmake_install.cmake
 example/CMakeCache.txt
