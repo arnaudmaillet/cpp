@@ -4,7 +4,7 @@
 #include <iostream>
 
 
-void parse(char numbers[]);
-std::string isPrimeNumber(int number);
+bool is_prime(long num);
+void printNum(long num);
 
 #endif /* SOURCES */

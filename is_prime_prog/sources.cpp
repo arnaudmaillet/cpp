@@ -1,32 +1,22 @@
-#include <cstring>
 #include <string.h>
 #include "sources.h"
 
-
-void parse(char buff[])
+bool is_prime(long num)
 {
-    char *number = strtok(buff, " ");
+    if (num == 3 || num == 2) return true;
+    if (num % 2 == 0 || num % 3 == 0) return false;
     
-    while (number != NULL)
+    for (int i = 4; i * i <= num; i++)
     {
-        std::cout << number << " is a prime: " << isPrimeNumber(atoi(number)) << std::endl;
-        
-        number = strtok(NULL, " ");
+        if (num % i == 0)
+        {
+            return false;
+        }
     }
+    return num < 2 ? false : true;
 }
 
-std::string isPrimeNumber(int number)
+void printNum(long num)
 {
-    if (number <= 1)
-    {
-        return "False";
-    }
-    for (int i = 2; i < number; i++)
-    {
-        if (number % i == 0)
-        {
-            return "False";
-        } 
-    }
-    return "True";
+    std::cout << num << " is a prime: " << (is_prime(num) == 1 ? "True" : "False") << "\n"; 
 }

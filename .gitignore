@@ -26,6 +26,7 @@ is_prime_prog/CMakeCache.txt
 is_prime_prog/Makefile
 is_prime_prog/main
 is_prime_prog/libmysource.so
+is_prime_prog/libmysource.dylib
 is_prime_prog/Makefile
 is_prime_prog/main.pdf
 

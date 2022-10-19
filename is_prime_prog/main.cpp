@@ -3,8 +3,7 @@
 
 int main()
 {
-    char buff[256];
-    std::cin.getline(buff, 256);
-    parse(buff);
+    long n;
+    while (std::cin >> n) printNum(n);
     return 0;
 }
