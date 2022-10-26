@@ -1,10 +1,4 @@
-#ifndef SOURCES
-#define SOURCES
+#pragma once
 
-#include <iostream>
-
-
-bool is_prime(long num);
-void printNum(long num);
-
-#endif /* SOURCES */
+extern long long int i;
+bool is_prime(long long int i);
