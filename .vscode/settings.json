@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "stdexcept": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "exception": "cpp",
+        "set": "cpp",
+        "sstream": "cpp",
+        "iosfwd": "cpp"
     }
 }

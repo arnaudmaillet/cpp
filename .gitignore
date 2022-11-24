@@ -38,3 +38,10 @@ cartesian_vector_param_2/main
 cartesian_vector_param_2/vector.so
 is_pcartesian_vector_param_2rime_prog/Makefile
 cartesian_vector_param_2/main.pdf
+
+set_function/CMakeFiles
+set_function/cmake_install.cmake
+set_function/CMakeCache.txt
+set_function/Makefile
+set_function/main
+set_function/libmysource.so
