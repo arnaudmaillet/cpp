@@ -1,0 +1,3 @@
+/Users/arnaud/Documents/Cpp/cpp/selection_sort_file_meta/CMakeFiles/main.dir
+/Users/arnaud/Documents/Cpp/cpp/selection_sort_file_meta/CMakeFiles/edit_cache.dir
+/Users/arnaud/Documents/Cpp/cpp/selection_sort_file_meta/CMakeFiles/rebuild_cache.dir
